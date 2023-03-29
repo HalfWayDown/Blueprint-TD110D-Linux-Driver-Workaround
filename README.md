@@ -8,3 +8,8 @@ libscupsimage2
 
 Driver yang digunakan diambil dari driver printer HT300 (Linux TSPL Drivers for HT300/HT330)
 https://www.hprt.com/hprt/files/product_down_file/model/31/classify/42.html
+
+- Extract Driver
+- gunakan perintah sudo ./install
+
+setting printer
