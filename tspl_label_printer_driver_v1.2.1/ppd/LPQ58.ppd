@@ -1,0 +1,416 @@
+*PPD-Adobe: "4.3"
+*%%%% PPD file for LPQ58 with CUPS.
+*%%%% Created by the CUPS PPD Compiler CUPS v1.5.3.
+*FormatVersion: "4.3"
+*FileVersion: "1.2.1"
+*LanguageVersion: English
+*LanguageEncoding: ISOLatin1
+*PCFileName: "LPQ58.ppd"
+*Product: "(LPQ58)"
+*Manufacturer: "HPRT"
+*ModelName: "LPQ58"
+*ShortNickName: "HPRT LPQ58"
+*NickName: "HPRT LPQ58, 1.2.1"
+*PSVersion: "(3010.000) 0"
+*LanguageLevel: "3"
+*ColorDevice: False
+*DefaultColorSpace: Gray
+*FileSystem: False
+*Throughput: "1"
+*LandscapeOrientation: Plus90
+*TTRasterizer: Type42
+*cupsVersion: 1.5
+*cupsModelNumber: 38401
+*cupsManualCopies: False
+*cupsFilter: "application/vnd.cups-raster 100 raster-tspl"
+*cupsLanguages: "en zh"
+
+*UIConstraints: *Occurrence 0 *SpecifiedPages
+*UIConstraints: *SpecifiedPages *Occurrence 0
+*UIConstraints: *Occurrence 1 *SpecifiedPages
+*UIConstraints: *SpecifiedPages *Occurrence 1
+*UIConstraints: *Occurrence 2 *SpecifiedPages
+*UIConstraints: *SpecifiedPages *Occurrence 2
+*UIConstraints: *Occurrence 3 *SpecifiedPages None
+*UIConstraints: *SpecifiedPages None *Occurrence 3
+
+*MaxMediaWidth: "306.14"
+*MaxMediaHeight: "6480"
+*HWMargins: 0.00 0.00 0.00 0.00
+*CustomPageSize True: "pop pop pop <</PageSize[5 -2 roll]/ImagingBBox null>>setpagedevice"
+*ParamCustomPageSize Width: 1 points 14.17 306.14
+*ParamCustomPageSize Height: 2 points 14.17 6480
+*ParamCustomPageSize WidthOffset: 3 points 0 0
+*ParamCustomPageSize HeightOffset: 4 points 0 0
+*ParamCustomPageSize Orientation: 5 int 0 0
+*RequiresPageRegion All: True
+
+*OpenUI *PageSize/Media Size: PickOne
+*OrderDependency: 10 AnySetup *PageSize
+*DefaultPageSize: w57h45
+*PageSize w25h15/25 mm x 15 mm: "<</PageSize[71 43]/ImagingBBox null>>setpagedevice"
+*PageSize w30h20/30 mm x 20 mm: "<</PageSize[85 57]/ImagingBBox null>>setpagedevice"
+*PageSize w35h30/35 mm x 30 mm: "<</PageSize[99 85]/ImagingBBox null>>setpagedevice"
+*PageSize w40h30/40 mm x 30 mm: "<</PageSize[113 85]/ImagingBBox null>>setpagedevice"
+*PageSize w50h35/50 mm x 35 mm: "<</PageSize[142 99]/ImagingBBox null>>setpagedevice"
+*PageSize w57h45/57 mm x 45 mm: "<</PageSize[162 128]/ImagingBBox null>>setpagedevice"
+*CloseUI: *PageSize
+*OpenUI *PageRegion/Media Size: PickOne
+*OrderDependency: 10 AnySetup *PageRegion
+*DefaultPageRegion: w57h45
+*PageRegion w25h15/25 mm x 15 mm: "<</PageSize[71 43]/ImagingBBox null>>setpagedevice"
+*PageRegion w30h20/30 mm x 20 mm: "<</PageSize[85 57]/ImagingBBox null>>setpagedevice"
+*PageRegion w35h30/35 mm x 30 mm: "<</PageSize[99 85]/ImagingBBox null>>setpagedevice"
+*PageRegion w40h30/40 mm x 30 mm: "<</PageSize[113 85]/ImagingBBox null>>setpagedevice"
+*PageRegion w50h35/50 mm x 35 mm: "<</PageSize[142 99]/ImagingBBox null>>setpagedevice"
+*PageRegion w57h45/57 mm x 45 mm: "<</PageSize[162 128]/ImagingBBox null>>setpagedevice"
+*CloseUI: *PageRegion
+*DefaultImageableArea: w57h45
+*ImageableArea w25h15/25 mm x 15 mm: "0 0 71 43"
+*ImageableArea w30h20/30 mm x 20 mm: "0 0 85 57"
+*ImageableArea w35h30/35 mm x 30 mm: "0 0 99 85"
+*ImageableArea w40h30/40 mm x 30 mm: "0 0 113 85"
+*ImageableArea w50h35/50 mm x 35 mm: "0 0 142 99"
+*ImageableArea w57h45/57 mm x 45 mm: "0 0 162 128"
+*DefaultPaperDimension: w57h45
+*PaperDimension w25h15/25 mm x 15 mm: "71 43"
+*PaperDimension w30h20/30 mm x 20 mm: "85 57"
+*PaperDimension w35h30/35 mm x 30 mm: "99 85"
+*PaperDimension w40h30/40 mm x 30 mm: "113 85"
+*PaperDimension w50h35/50 mm x 35 mm: "142 99"
+*PaperDimension w57h45/57 mm x 45 mm: "162 128"
+
+
+*OpenUI *Resolution/Resolution: PickOne
+*OrderDependency: 10 AnySetup *Resolution
+*DefaultResolution: 203dpi
+*Resolution 203dpi/203 DPI: "<</HWResolution[203 203]/cupsBitsPerColor 1/cupsRowCount 0/cupsRowFeed 0/cupsRowStep 0/cupsColorSpace 3>>setpagedevice"
+*CloseUI: *Resolution
+
+*OpenGroup: PrinterOptions/Printer Options
+
+*OpenUI *Orientation/Orientation: PickOne
+*OrderDependency: 10 AnySetup *Orientation
+*DefaultOrientation: 0
+*Orientation 0/0 degrees: ""
+*Orientation 1/90 degrees: ""
+*Orientation 2/180 degrees: ""
+*Orientation 3/270 degrees: ""
+*CloseUI: *Orientation
+
+
+*OpenUI *MediaMethod/Method: PickOne
+*OrderDependency: 110 AnySetup *MediaMethod
+*DefaultMediaMethod: None
+*MediaMethod None/Use Currently Printer Setting: ""
+*MediaMethod 1/Direct Thermal: ""
+*CloseUI: *MediaMethod
+*OpenUI *PaperType/Type: PickOne
+*OrderDependency: 120 AnySetup *PaperType
+*DefaultPaperType: None
+*PaperType None/Use Currently Printer Setting: ""
+*PaperType 1/Label with Gaps: ""
+*PaperType 2/Label with Mark: ""
+*PaperType 3/Continue: ""
+*CloseUI: *PaperType
+*OpenUI *PrintSpeed/Print Speed: PickOne
+*OrderDependency: 310 AnySetup *PrintSpeed
+*DefaultPrintSpeed: None
+*PrintSpeed None/Use Currently Printer Setting: ""
+*PrintSpeed 2/2.00 in/sec: ""
+*PrintSpeed 3/3.00 in/sec: ""
+*CloseUI: *PrintSpeed
+*OpenUI *PrintDarkness/Print Darkness: PickOne
+*OrderDependency: 320 AnySetup *PrintDarkness
+*DefaultPrintDarkness: None
+*PrintDarkness None/Use Currently Printer Setting: ""
+*PrintDarkness 0/0: ""
+*PrintDarkness 1/1: ""
+*PrintDarkness 2/2: ""
+*PrintDarkness 3/3: ""
+*PrintDarkness 4/4: ""
+*PrintDarkness 5/5: ""
+*PrintDarkness 6/6: ""
+*PrintDarkness 7/7: ""
+*PrintDarkness 8/8: ""
+*PrintDarkness 9/9: ""
+*PrintDarkness 10/10: ""
+*PrintDarkness 11/11: ""
+*PrintDarkness 12/12: ""
+*PrintDarkness 13/13: ""
+*PrintDarkness 14/14: ""
+*PrintDarkness 15/15: ""
+*CloseUI: *PrintDarkness
+*OpenUI *ShiftMove/Start Position: PickOne
+*OrderDependency: 510 AnySetup *ShiftMove
+*DefaultShiftMove: None
+*ShiftMove -12/-12mm: ""
+*ShiftMove -11/-11mm: ""
+*ShiftMove -10/-10mm: ""
+*ShiftMove -9/-9mm: ""
+*ShiftMove -8/-8mm: ""
+*ShiftMove -7/-7mm: ""
+*ShiftMove -6/-6mm: ""
+*ShiftMove -5/-5mm: ""
+*ShiftMove -4/-4mm: ""
+*ShiftMove -3/-3mm: ""
+*ShiftMove -2/-2mm: ""
+*ShiftMove -1/-1mm: ""
+*ShiftMove None/Use Currently Printer Setting: ""
+*ShiftMove 0/0mm: ""
+*ShiftMove 1/1mm: ""
+*ShiftMove 2/2mm: ""
+*ShiftMove 3/3mm: ""
+*ShiftMove 4/4mm: ""
+*ShiftMove 5/5mm: ""
+*ShiftMove 6/6mm: ""
+*ShiftMove 7/7mm: ""
+*ShiftMove 8/8mm: ""
+*ShiftMove 9/9mm: ""
+*ShiftMove 10/10mm: ""
+*ShiftMove 11/11mm: ""
+*ShiftMove 12/12mm: ""
+*CloseUI: *ShiftMove
+*OpenUI *PostAction/Post-Print Action: PickOne
+*OrderDependency: 610 AnySetup *PostAction
+*DefaultPostAction: 1
+*PostAction None/None: ""
+*PostAction 1/Tear Off: ""
+*CloseUI: *PostAction
+*OpenUI *FowardOffset/Stop Offset: PickOne
+*OrderDependency: 710 AnySetup *FowardOffset
+*DefaultFowardOffset: None
+*FowardOffset -30/-30mm: ""
+*FowardOffset -29/-29mm: ""
+*FowardOffset -28/-28mm: ""
+*FowardOffset -27/-27mm: ""
+*FowardOffset -26/-26mm: ""
+*FowardOffset -25/-25mm: ""
+*FowardOffset -24/-24mm: ""
+*FowardOffset -23/-23mm: ""
+*FowardOffset -22/-22mm: ""
+*FowardOffset -21/-21mm: ""
+*FowardOffset -20/-20mm: ""
+*FowardOffset -19/-19mm: ""
+*FowardOffset -18/-18mm: ""
+*FowardOffset -17/-17mm: ""
+*FowardOffset -16/-16mm: ""
+*FowardOffset -15/-15mm: ""
+*FowardOffset -14/-14mm: ""
+*FowardOffset -13/-13mm: ""
+*FowardOffset -12/-12mm: ""
+*FowardOffset -11/-11mm: ""
+*FowardOffset -10/-10mm: ""
+*FowardOffset -9/-9mm: ""
+*FowardOffset -8/-8mm: ""
+*FowardOffset -7/-7mm: ""
+*FowardOffset -6/-6mm: ""
+*FowardOffset -5/-5mm: ""
+*FowardOffset -4/-4mm: ""
+*FowardOffset -3/-3mm: ""
+*FowardOffset -2/-2mm: ""
+*FowardOffset -1/-1mm: ""
+*FowardOffset None/Use Currently Printer Setting: ""
+*FowardOffset 0/0mm: ""
+*FowardOffset 1/1mm: ""
+*FowardOffset 2/2mm: ""
+*FowardOffset 3/3mm: ""
+*FowardOffset 4/4mm: ""
+*FowardOffset 5/5mm: ""
+*FowardOffset 6/6mm: ""
+*FowardOffset 7/7mm: ""
+*FowardOffset 8/8mm: ""
+*FowardOffset 9/9mm: ""
+*FowardOffset 10/10mm: ""
+*FowardOffset 11/11mm: ""
+*FowardOffset 12/12mm: ""
+*FowardOffset 13/13mm: ""
+*FowardOffset 14/14mm: ""
+*FowardOffset 15/15mm: ""
+*FowardOffset 16/16mm: ""
+*FowardOffset 17/17mm: ""
+*FowardOffset 18/18mm: ""
+*FowardOffset 19/19mm: ""
+*FowardOffset 20/20mm: ""
+*FowardOffset 21/21mm: ""
+*FowardOffset 22/22mm: ""
+*FowardOffset 23/23mm: ""
+*FowardOffset 24/24mm: ""
+*FowardOffset 25/25mm: ""
+*FowardOffset 26/26mm: ""
+*FowardOffset 27/27mm: ""
+*FowardOffset 28/28mm: ""
+*FowardOffset 29/29mm: ""
+*FowardOffset 30/30mm: ""
+*CloseUI: *FowardOffset
+
+*CloseGroup: PrinterOptions
+*OpenGroup: effects/Effectives
+*OpenUI *MirrorImage/Mirror Image: Boolean
+*OrderDependency: 210 AnySetup *MirrorImage
+*DefaultMirrorImage: False
+*MirrorImage True/Yes: ""
+*MirrorImage False/No : ""
+*CloseUI: *MirrorImage
+*OpenUI *NegativeImage/Negative Image: Boolean
+*OrderDependency: 220 AnySetup *NegativeImage
+*DefaultNegativeImage: False
+*NegativeImage True/Yes: ""
+*NegativeImage False/No : ""
+*CloseUI: *NegativeImage
+*CloseGroup: effects
+*zh.Translation Manufacturer/HPRT: ""
+*zh.Translation ModelName/HPRT LPQ58: ""
+*zh.Translation ShortNickName/HPRT LPQ58: ""
+*zh.Translation NickName/HPRT LPQ58, 1.2.1: ""
+*zh.Translation PageSize/介质大小: ""
+*zh.PageSize w25h15/25毫米 x 15毫米: ""
+*zh.PageSize w30h20/30毫米 x 20毫米: ""
+*zh.PageSize w35h30/35毫米 x 30毫米: ""
+*zh.PageSize w40h30/40毫米 x 30毫米: ""
+*zh.PageSize w50h35/50毫米 x 35毫米: ""
+*zh.PageSize w57h45/57毫米 x 45毫米: ""
+
+*zh.Translation Resolution/分辨率: ""
+*zh.Resolution 203dpi/203 DPI: ""
+*zh.Translation PrinterOptions/打印机选项: ""
+*zh.Translation MediaMethod/打印方式: ""
+*zh.MediaMethod None/使用打印机当前设置: ""
+*zh.MediaMethod 1/热敏: ""
+*zh.Translation PaperType/打印纸类型: ""
+*zh.PaperType None/使用打印机当前设置: ""
+*zh.PaperType 1/有间隔的标签纸: ""
+*zh.PaperType 2/有标志的标签纸: ""
+*zh.PaperType 3/连续纸: ""
+*zh.Translation PrintSpeed/打印速度: ""
+*zh.PrintSpeed None/使用打印机当前设置: ""
+*zh.PrintSpeed 2/2 英寸/秒: ""
+*zh.PrintSpeed 3/3 英寸/秒: ""
+*zh.Translation PrintDarkness/浓度: ""
+*zh.PrintDarkness None/使用打印机当前设置: ""
+*zh.PrintDarkness 0/0: ""
+*zh.PrintDarkness 1/1: ""
+*zh.PrintDarkness 2/2: ""
+*zh.PrintDarkness 3/3: ""
+*zh.PrintDarkness 4/4: ""
+*zh.PrintDarkness 5/5: ""
+*zh.PrintDarkness 6/6: ""
+*zh.PrintDarkness 7/7: ""
+*zh.PrintDarkness 8/8: ""
+*zh.PrintDarkness 9/9: ""
+*zh.PrintDarkness 10/10: ""
+*zh.PrintDarkness 11/11: ""
+*zh.PrintDarkness 12/12: ""
+*zh.PrintDarkness 13/13: ""
+*zh.PrintDarkness 14/14: ""
+*zh.PrintDarkness 15/15: ""
+*zh.Translation ShiftMove/打印开始时垂直位移: ""
+*zh.ShiftMove -12/-12 毫米: ""
+*zh.ShiftMove -11/-11 毫米: ""
+*zh.ShiftMove -10/-10 毫米: ""
+*zh.ShiftMove -9/-9 毫米: ""
+*zh.ShiftMove -8/-8 毫米: ""
+*zh.ShiftMove -7/-7 毫米: ""
+*zh.ShiftMove -6/-6 毫米: ""
+*zh.ShiftMove -5/-5 毫米: ""
+*zh.ShiftMove -4/-4 毫米: ""
+*zh.ShiftMove -3/-3 毫米: ""
+*zh.ShiftMove -2/-2 毫米: ""
+*zh.ShiftMove -1/-1 毫米: ""
+*zh.ShiftMove None/使用打印机当前设置: ""
+*zh.ShiftMove 0/0 毫米: ""
+*zh.ShiftMove 1/1 毫米: ""
+*zh.ShiftMove 2/2 毫米: ""
+*zh.ShiftMove 3/3 毫米: ""
+*zh.ShiftMove 4/4 毫米: ""
+*zh.ShiftMove 5/5 毫米: ""
+*zh.ShiftMove 6/6 毫米: ""
+*zh.ShiftMove 7/7 毫米: ""
+*zh.ShiftMove 8/8 毫米: ""
+*zh.ShiftMove 9/9 毫米: ""
+*zh.ShiftMove 10/10 毫米: ""
+*zh.ShiftMove 11/11 毫米: ""
+*zh.ShiftMove 12/12 毫米: ""
+*zh.Translation PostAction/打印后操作: ""
+*zh.PostAction None/无: ""
+*zh.PostAction 1/撕去: ""
+*zh.Translation FowardOffset/打印完成后进纸: ""
+*zh.FowardOffset -30/-30 毫米: ""
+*zh.FowardOffset -29/-29 毫米: ""
+*zh.FowardOffset -28/-28 毫米: ""
+*zh.FowardOffset -27/-27 毫米: ""
+*zh.FowardOffset -26/-26 毫米: ""
+*zh.FowardOffset -25/-25 毫米: ""
+*zh.FowardOffset -24/-24 毫米: ""
+*zh.FowardOffset -23/-23 毫米: ""
+*zh.FowardOffset -22/-22 毫米: ""
+*zh.FowardOffset -21/-21 毫米: ""
+*zh.FowardOffset -20/-20 毫米: ""
+*zh.FowardOffset -19/-19 毫米: ""
+*zh.FowardOffset -18/-18 毫米: ""
+*zh.FowardOffset -17/-17 毫米: ""
+*zh.FowardOffset -16/-16 毫米: ""
+*zh.FowardOffset -15/-15 毫米: ""
+*zh.FowardOffset -14/-14 毫米: ""
+*zh.FowardOffset -13/-13 毫米: ""
+*zh.FowardOffset -12/-12 毫米: ""
+*zh.FowardOffset -11/-11 毫米: ""
+*zh.FowardOffset -10/-10 毫米: ""
+*zh.FowardOffset -9/-9 毫米: ""
+*zh.FowardOffset -8/-8 毫米: ""
+*zh.FowardOffset -7/-7 毫米: ""
+*zh.FowardOffset -6/-6 毫米: ""
+*zh.FowardOffset -5/-5 毫米: ""
+*zh.FowardOffset -4/-4 毫米: ""
+*zh.FowardOffset -3/-3 毫米: ""
+*zh.FowardOffset -2/-2 毫米: ""
+*zh.FowardOffset -1/-1 毫米: ""
+*zh.FowardOffset None/使用打印机当前设置: ""
+*zh.FowardOffset 0/0 毫米: ""
+*zh.FowardOffset 1/1 毫米: ""
+*zh.FowardOffset 2/2 毫米: ""
+*zh.FowardOffset 3/3 毫米: ""
+*zh.FowardOffset 4/4 毫米: ""
+*zh.FowardOffset 5/5 毫米: ""
+*zh.FowardOffset 6/6 毫米: ""
+*zh.FowardOffset 7/7 毫米: ""
+*zh.FowardOffset 8/8 毫米: ""
+*zh.FowardOffset 9/9 毫米: ""
+*zh.FowardOffset 10/10 毫米: ""
+*zh.FowardOffset 11/11 毫米: ""
+*zh.FowardOffset 12/12 毫米: ""
+*zh.FowardOffset 13/13 毫米: ""
+*zh.FowardOffset 14/14 毫米: ""
+*zh.FowardOffset 15/15 毫米: ""
+*zh.FowardOffset 16/16 毫米: ""
+*zh.FowardOffset 17/17 毫米: ""
+*zh.FowardOffset 18/18 毫米: ""
+*zh.FowardOffset 19/19 毫米: ""
+*zh.FowardOffset 20/20 毫米: ""
+*zh.FowardOffset 21/21 毫米: ""
+*zh.FowardOffset 22/22 毫米: ""
+*zh.FowardOffset 23/23 毫米: ""
+*zh.FowardOffset 24/24 毫米: ""
+*zh.FowardOffset 25/25 毫米: ""
+*zh.FowardOffset 26/26 毫米: ""
+*zh.FowardOffset 27/27 毫米: ""
+*zh.FowardOffset 28/28 毫米: ""
+*zh.FowardOffset 29/29 毫米: ""
+*zh.FowardOffset 30/30 毫米: ""
+
+*zh.Translation effects/图像效果: ""
+*zh.Translation MirrorImage/镜像: ""
+*zh.MirrorImage True/是: ""
+*zh.MirrorImage False/否 : ""
+*zh.Translation NegativeImage/负片: ""
+*zh.NegativeImage True/是: ""
+*zh.NegativeImage False/否 : ""
+
+*zh.Translation Orientation/打印方向: ""
+*zh.Orientation 0/0 度: ""
+*zh.Orientation 1/90 度: ""
+*zh.Orientation 2/180 度: ""
+*zh.Orientation 3/270 度: ""
+
+*DefaultFont: Courier
+*% End of LPQ58.ppd, 14212 bytes.
