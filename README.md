@@ -11,7 +11,7 @@ Dependencies:
 ### https://www.hprt.com/hprt/files/product_down_file/model/31/classify/42.html
 
 - Extract Driver
-    - tar -cf HT300-LINUX-DRIVER.tar
+    - tar -xf HT300-LINUX-DRIVER.tar
 - gunakan perintah sudo ./install
 
 setting printer via cups atau printer manager lainnya
